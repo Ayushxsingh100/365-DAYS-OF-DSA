@@ -4,7 +4,8 @@ class Solution {
         int i = 0; 
         int j = numbers.length-1;
         while(i<j){
-            if(numbers[i] + numbers[j] < target){
+            if(numbers[i] + numbers[j] < target){ 
+                // iteration
                 i++;
             }
                else if(numbers[i] + numbers[j] > target){
