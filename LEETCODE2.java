@@ -5,7 +5,7 @@ class Solution {
         // initializing the profit with the 0
         int max_profit = 0;
         // traversing a LOOP for prices[]
-        for(int i =0 ; i< prices.length ; i++ ){
+        for(int i =0  ; i< prices.length ; i++ ){
             // if the value of the other elements is less than the first element of the 
             // array , so we will change the value with the samllest element
             if(prices[i] < min){
