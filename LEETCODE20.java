@@ -11,7 +11,7 @@ class Solution {
             if(prices[i] > prices[i-1]){
                 // loop works again and again , and profit gets added again and again
                 profit += (prices[i] - prices[i-1]);
-            }
+            } 
         }
         // return the max 
         return profit;
